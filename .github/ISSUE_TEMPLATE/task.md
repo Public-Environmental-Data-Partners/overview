@@ -1,6 +1,6 @@
 ---
 name: Task
-about: For cards that are not user stories, but may be technical, UX-related, or other   tasks.
+about: For technical or other tasks that are not related to the repo's content/info.
 title: 'Task: X'
 labels: task
 assignees: ''
