@@ -2,21 +2,20 @@
 
 Welcome! This repo contains information and resources about Public Environmental Data Partners' Github use and open source practices to help people get involved in our work.
 
-*Table of Contents:*
 
-[Mission](#mission)
-[How We Work](#how-we-work)
-[Getting Started](#getting-started)
-  [What should be a PEDP repo?](#what-should-be-a-pedp-repo)
-  [Creating a Github Repo](#creating-a-github-repo)
-    [Archiving an external project](#archiving-an-external-project)
-    [Building on an archived project](#building-on-an-archived-project)
-    [Creating an original project](#creating-an-original-project)
-  [License](#license)
-  [Issue templates](#issue-templates)
-[Getting Contributor-Ready](#getting-contributor-ready)
-[Funding](#funding)
-[Credits](#credits)
+1. [Mission](#mission)
+1. [How We Work](#how-we-work)
+1. [Getting Started](#getting-started)
+  1. [What should be a PEDP repo?](#what-should-be-a-pedp-repo)
+  1. [Creating a Github Repo](#creating-a-github-repo)
+    1. [Archiving an external project](#archiving-an-external-project)
+    1. [Building on an archived project](#building-on-an-archived-project)
+    1. [Creating an original project](#creating-an-original-project)
+  1. [License](#license)
+  1. [Issue templates](#issue-templates)
+1. [Getting Contributor-Ready](#getting-contributor-ready)
+1. [Funding](#funding)
+1. [Credits](#credits)
 
 
 ## Mission
@@ -34,8 +33,7 @@ We expect contributors to review and abide by our [Code of Conduct](/CODE_OF_CON
 
 ## Getting Started
 
-
-*New to PEDP?* Visit our [Get Involved page](https://screening-tools.com/get-involved) to read our organizational Working Agreements, privacy guidance, and fill out our volunteer interest form. Once you've filled out the form, we will be in touch with next steps for orientation and onboarding to our communication tools. 
+**New to PEDP?** Visit our [Get Involved page](https://screening-tools.com/get-involved) to read our organizational Working Agreements, privacy guidance, and fill out our volunteer interest form. Once you've filled out the form, we will be in touch with next steps for orientation and onboarding to our communication tools. 
 
 While onboarding to our chat may make communication about projects easier, you *do not* need to fill out the volunteer form to contribute to our open source projects. Feel free to check out our [repos](https://github.com/orgs/Public-Environmental-Data-Partners/repositories) and browse [good first issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue+user%3APublic-Environmental-Data-Partners) to get started!
 
@@ -67,7 +65,7 @@ The default branch name should be `main`, not `master`. (See [GitHub’s docs on
 
 #### Archiving an external project
 
-*Guiding principles and conventions for replicating or cloning another project:*
+Guiding principles and conventions for replicating or cloning another project:
 
 * Honor what the project was originally for and preserve as much source information as possible, e.g. (potentially legacy) URLs, teams, associated organizations and offices. Project files such as READMEs may not always follow familiar conventions, but we want to preserve them or the information they provide regardless.
 * Preserve identifying or contact information in repos: These are tacit forms of authorship attribution and provide a historical record. Leave unless an identified individual explicitly asks to have their information removed.
@@ -83,7 +81,9 @@ When forking a Github repo:
 1. Update the repo’s About to say: “PEDP’s working copy of” followed by the project name and info.
 1. Update the repo’s README.md file to add the following text to the top of the file, filling in the relevant info and modifying as needed. Using Github’s UI to do this and committing directly to the main branch is simplest.
 
+```
 	This repo contains the code, processes, and documentation for the former PROJECT NAME. It was forked on DATE. This fork is maintained by the Public Environmental Data Partners. 
+```
 
 When obtaining code from outside of Github (e.g. FOIA request):
 
@@ -92,20 +92,24 @@ When obtaining code from outside of Github (e.g. FOIA request):
 1. Create a new empty repo with the desired project name.
 1. Update the repo’s About to say: “PEDP’s working copy of” followed by the project name and info.
 1. In your local environment, set up git for this project:
-	1. If the project is not already using git, navigate to the project’s directory in the terminal or command line and run git init. Add everything to git (git add .) and commit (git commit -m "Initial commit")
-	1. If necessary, add an appropriate .gitignore file to avoid committing non-source files
-	1. Add the remote, replacing URL with the Github repo’s https url : git remote add origin URL
+	1. If the project is not already using git, navigate to the project’s directory in the terminal or command line and run git init. Add everything to git (`git add .`) and commit (`git commit -m "Initial commit"`)
+	1. If necessary, add an appropriate `.gitignore` file to avoid committing non-source files
+	1. Add the remote, replacing URL with the Github repo’s https url : `git remote add origin URL`
 	1. Push the code to github: git push origin main
 1. Update the repo’s README.md file to add the following text to the top of the file (modifying as needed):
 
-	This repo contains the code, processes, and documentation for the former PROJECT NAME. The contents of this repo was received from SOURCE by METHOD [e.g. FOIA request] on DATE. This repo is maintained by the Public Environmental Data Partners. 
+```
+	This repo contains the code, processes, and documentation for the former PROJECT NAME. The contents of this repo was received from SOURCE by METHOD [e.g. FOIA request] on DATE. This repo is maintained by the Public Environmental Data Partners.
+```
 
 For all repos:
 
 1. If the repo has no license and:
-	1. was originally created by the US Government: Add a LICENSE.txt file to the repo using the following text (fill out the relevant info).
+	1. was originally created by the US Government: Add a `LICENSE.txt` file to the repo using the following text (fill out the relevant info).
 
+```
 	As a product of the US Government, the project REPO_NAME exists in the public domain and its copyright is held by the US Government as of DATE_OF_RETRIEVAL.
+```
 
 	1. was not created by the US Government, contact the owner to confirm licensing and copyright and update the repo accordingly.
 
@@ -114,7 +118,7 @@ For all repos:
 
 #### Building on an archived project
 
-*Guiding principles for building on a project that was previously simply a replica or archive of an existing project:*
+Guiding principles for building on a project that was previously simply a replica or archive of an existing project:
 
 * It should be clear in the repo what PEDP’s goals are for changes, as well as the current status of the project and how to get involved.
 * It should be clear in the repo when PEDP started to make changes, and what commits are from PEDP versus from the original source.
@@ -123,15 +127,19 @@ For all repos:
 Steps for Github changes:
 
 1. Update README to provide more information about your goals and the status of the project.
-1. Ensure the repo’s CONTRIBUTING file or similar information is up-to-date with the relevant info. You can use the PEDP template for contributor guidelines (LINK).
-1. Ensure the repo has an up-to-date CODE OF CONDUCT that is or complies with PEDP’s (link).
+1. Ensure the repo’s CONTRIBUTING file or similar information is up-to-date with the relevant info. You can use the PEDP [template for contributor guidelines](https://github.com/Public-Environmental-Data-Partners/template/blob/main/CONTRIBUTING.md).
+1. Ensure the repo has an up-to-date CODE OF CONDUCT that is or complies with [PEDP’s](https://github.com/Public-Environmental-Data-Partners/overview/blob/main/CODE_OF_CONDUCT.md).
 1. Update the LICENSE file to note PEDP as the new copyright owner after a given date and using the AGPL license for PEDP changes. Note: this assumes that the previous license does not require modifications to be released under the same license. If it does, leave out the text of the GNU AGPLv3 license and replaced “licensed under GNU AGPLv3” with the original license.
 
+```
 	Copyright for portions of this repository REPO NAME before DATE are held by the US Government and are licensed under LICENSE. Copyright for portions of REPO NAME created on or after DATE (beginning with commit COMMIT-SHA) are held by Public Environmental Data Partners and licensed under GNU AGPLv3.
 
 	[insert text of GNU AGPLv3]
 
 	[insert text of original license]
+```
+
+Text of the GNU AGPLv3 license can be found [here](https://github.com/Public-Environmental-Data-Partners/overview/blob/main/LICENSE.
 
 1. Flesh out your project board with issues capturing the work to be done. Label issues appropriately, e.g. with “help wanted” or or “good first issue” 
 
