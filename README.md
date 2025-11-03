@@ -70,7 +70,6 @@ Guiding principles and conventions for replicating or cloning another project:
 * Honor what the project was originally for and preserve as much source information as possible, e.g. (potentially legacy) URLs, teams, associated organizations and offices. Project files such as READMEs may not always follow familiar conventions, but we want to preserve them or the information they provide regardless.
 * Preserve identifying or contact information in repos: These are tacit forms of authorship attribution and provide a historical record. Leave unless an identified individual explicitly asks to have their information removed.
 * License: Keep the original license file as is if you do not plan to make changes to the code. Follow guidance below if you intend to make substantive changes to the repo.
-* Internal to PEDP: Flag to the Working Group coordinators to make make sure the repo’s record in Airtable is updated with contact info for members who did the work of replicating the project as well as those who can provide broader context (e.g. what does this tool do and why does it exist). These people may be the same person.
 
 ##### Steps for replicating:
 
