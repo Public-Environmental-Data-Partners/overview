@@ -1,3 +1,7 @@
+[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](/CODE_OF_CONDUCT.md)
+
+[<div align="center"><img width=40% src="./images/PEDP_logo_Offblack.png" alt="Public Environmental Data Partners Logo"></div>](https://envirodatagov.org/)
+
 # Overview
 
 Welcome! This repo contains information and resources about Public Environmental Data Partners' Github use and open source practices to help people get involved in our work.
