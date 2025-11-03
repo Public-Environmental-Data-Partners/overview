@@ -7,7 +7,7 @@ Welcome! This repo contains information and resources about Public Environmental
 1. [How We Work](#how-we-work)
 1. [Getting Started](#getting-started)
     1. [What should be a PEDP repo?](#what-should-be-a-pedp-repo)
-    1. [Creating a Github Repo](#creating-a-github-repo)
+    1. [Creating a repo](#creating-a-github-repo)
         1. [Archiving an external project](#archiving-an-external-project)
         1. [Building on an archived project](#building-on-an-archived-project)
         1. [Creating an original project](#creating-an-original-project)
@@ -45,7 +45,7 @@ For everyone, please refer the guidelines below for creating repositories and wo
 * Any repo containing a software project created or maintained primarily through PEDP and/or funded by PEDP.
 * Any project that has been archived/replicated by PEDP through our software preservation efforts
 
-### Creating a Github repo
+### Creating a repo
 There are three typical scenarios for PEDP project repos on Github: [Archiving an existing project from another source](#archiving-an-external-project), [building on an existing archived (or forked) project](#building-on-an-archived-project), and [creating a new project containing original sourcecode](#creating-an-original-project).
 
 Each project repository requires, at a minimum:
@@ -72,7 +72,7 @@ Guiding principles and conventions for replicating or cloning another project:
 * License: Keep the original license file as is if you do not plan to make changes to the code. Follow guidance below if you intend to make substantive changes to the repo.
 * Internal to PEDP: Flag to the Working Group coordinators to make make sure the repo’s record in Airtable is updated with contact info for members who did the work of replicating the project as well as those who can provide broader context (e.g. what does this tool do and why does it exist). These people may be the same person.
 
-*Steps for replicating:*
+##### Steps for replicating:
 
 When forking a Github repo:
 
@@ -105,10 +105,10 @@ For all repos:
 
 1. If the repo has no license and was originally created by the US Government: Add a `LICENSE.txt` file to the repo using the following text (fill out the relevant info).
 
-	As a product of the US Government, the project REPO_NAME exists in the public domain and its 
+	As a product of the US Government, the project REPO_NAME exists in the public domain and its copyright is held by the US Government as of DATE_OF_RETRIEVAL.
 
-1. If the repo has no license and was **not** created by the US Government, contact the owner to confirm licensing and copyright and update the repo accordingly.
-1. If the project requires other tasks for proper replication, create a project board for the repo and add those tasks as issues to the backlog. Assign the proper labels to them (e.g. help wanted or good first issue).
+1. If the repo has no license and was **not** created by the US Government, contact the original owner to confirm licensing and copyright and update the repo accordingly.
+1. If the project requires other tasks for proper archival, create a project board for the repo and add those tasks as issues to the backlog. Assign the proper labels to them (e.g. help wanted or good first issue).
 
 
 #### Building on an archived project
@@ -119,18 +119,14 @@ Guiding principles for building on a project that was previously simply a replic
 * It should be clear in the repo when PEDP started to make changes, and what commits are from PEDP versus from the original source.
 * We want to ensure that new code and other enhancements we make to the project are protected by a strong copyleft license, to prevent others from using our work to create proprietary tools that further injustice.
 
-Steps for Github changes:
+##### Steps for Github changes:
 
 1. Update README to provide more information about your goals and the status of the project.
 1. Ensure the repo’s CONTRIBUTING file or similar information is up-to-date with the relevant info. You can use the PEDP [template for contributor guidelines](https://github.com/Public-Environmental-Data-Partners/template/blob/main/CONTRIBUTING.md).
 1. Ensure the repo has an up-to-date CODE OF CONDUCT that is or complies with [PEDP’s](https://github.com/Public-Environmental-Data-Partners/overview/blob/main/CODE_OF_CONDUCT.md).
-1. Update the LICENSE file to note PEDP as the new copyright owner after a given date and using the AGPL license for PEDP changes. Note: this assumes that the previous license does not require modifications to be released under the same license. If it does, leave out the text of the GNU AGPLv3 license and replaced “licensed under GNU AGPLv3” with the original license.
+1. Update the LICENSE file to note PEDP as the new copyright owner after a given date and using the AGPL license for PEDP changes. **Note**: this assumes that the previous license does not require modifications to be released under the same license. If it does, leave out the text of the GNU AGPLv3 license and replaced “licensed under GNU AGPLv3” with the original license.
 
-	Copyright for portions of this repository REPO NAME before DATE are held by the US Government and are licensed under LICENSE. Copyright for portions of REPO NAME created on or after DATE (beginning with commit COMMIT-SHA) are held by Public Environmental Data Partners and licensed under GNU AGPLv3.
-
-	[insert text of [GNU AGPLv3](https://github.com/Public-Environmental-Data-Partners/overview/blob/main/LICENSE)]
-
-	[insert text of original license]
+	Copyright for portions of this repository REPO NAME before DATE are held by the US Government and are licensed under LICENSE (link to license). Copyright for portions of REPO NAME created on or after DATE (beginning with commit COMMIT-SHA) are held by Public Environmental Data Partners and licensed under [GNU AGPLv3](https://github.com/Public-Environmental-Data-Partners/overview/blob/main/LICENSE).
 
 1. Flesh out your project board with issues capturing the work to be done. Label issues appropriately, e.g. with “help wanted” or or “good first issue” 
 
@@ -139,7 +135,7 @@ Steps for Github changes:
 
 Sometimes we create new and original software tools to advance PEPD's mission. Those codebases should live as open source projects on Github and use the [template repo](https://github.com/Public-Environmental-Data-Partners/template) provided.
 
-Steps for Github:
+#### Steps for Github:
 
 1. Create a Github repository (repo) 
 1. Open PEDP org in Github
@@ -154,7 +150,9 @@ Steps for Github:
 
 
 ### License
-[AGPLv3](LICENSE) is our preferred license for code.
+[AGPLv3](LICENSE) is our preferred license for PEDP code. 
+
+When an archived project has another license, we maintain the original license in that project's repo. When we begin adding new code, content, or other material to the project, we update the license file to note that contributions after the date of archival (usually accompanied by a commit SHA) are licensed under AGPLv3. See the steps above for more detail.
 
 ### Issue templates
 We recommend using issue templates for Github repos to make consistent, thorough issue creation easier. Our [template repo](https://github.com/Public-Environmental-Data-Partners/template) contains suggested [issue templates](https://github.com/Public-Environmental-Data-Partners/template/tree/main/.github/ISSUE_TEMPLATE, including Spanish versions.
