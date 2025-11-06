@@ -9,7 +9,7 @@ We're thrilled you're interested in contributing to PEDP projects! There are mul
 * [Translation](#translation)
 * [Design system](#design-system)
 
-For other types of contribution to PEDP, such as data preservation, advocacy, and promotion, please reach out using our [volunteer interest form]().
+For other types of contribution to PEDP, such as data preservation, advocacy, and promotion, please reach out using our [volunteer interest form](https://screening-tools.com/get-involved).
 
 No matter the type or place of contribution, we expect contributors to agree and adhere to our organizational [Working Agreements](https://docs.google.com/document/d/1KyngJ8K7FMUlic2G3OonZEBwoTH85hWO88oX-38URKM).
 
@@ -39,7 +39,7 @@ We love contributions, whether code or documentation (or both!). Our process for
 
     $ git clone git@github.com:<your-username>/<repository-name>.git
 
-Organization members should clone the upsteam repo, instead of working from a personal fork:
+Organization members should clone the PEDP repo, instead of working from a personal fork:
 
 $ git clone git@github.com:Public-Environmental-Data-Partners/<repository-name>.git
 
@@ -49,7 +49,7 @@ $ git clone git@github.com:Public-Environmental-Data-Partners/<repository-name>.
 
 3. Create or modify the files with your changes and commit them in Git. If you are fixing a known issue, include “fixes #123” (where “123” is the issue number) in one of your commit messages to help automatically link everything together.
 
-4. Once your changes are ready for review, push your commits to GitHub and create a pull request (PR). If you aren’t ready for final review and just need some preliminary feedback, create the PR as a draft ([Screenshot]()), and then move it out of Draft status when you're ready for review.
+4. Once your changes are ready for review, push your commits to GitHub and create a pull request (PR). If you aren’t ready for final review and just need some preliminary feedback, create the PR as a draft, and then move it out of Draft status when you're ready for review.
 
 5. Allow others sufficient time for review and comments before merging. We make use of GitHub's review feature to comment in-line on PRs when possible. There may be some fixes or adjustments you'll have to make based on feedback.
 
