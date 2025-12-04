@@ -82,7 +82,7 @@ When forking a Github repo:
 1. Make sure you have the correct access to the PEDP Github organization.
 1. Fork the repo to the PEDP Github organization.
 1. Update the repo’s About to say: “PEDP’s working copy of” followed by the project name and info.
-1. Update the repo’s README.md file to add the following text to the top of the file, filling in the relevant info and modifying as needed. Using Github’s UI to do this and committing directly to the main branch is simplest.
+1. Update the repo’s README.md file to add the following text (or a relevant version of it) to the top of the file, filling in the relevant info and modifying as needed. Using Github’s UI to do this and committing directly to the main branch is simplest.
 
 
 	_This repo was forked for archival purposes by the [Public Environmental Data Partners](https://screening-tools.com/) on DATE._
