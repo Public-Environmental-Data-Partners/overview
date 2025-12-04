@@ -85,7 +85,7 @@ When forking a Github repo:
 1. Update the repo’s README.md file to add the following text to the top of the file, filling in the relevant info and modifying as needed. Using Github’s UI to do this and committing directly to the main branch is simplest.
 
 
-	This repo contains the code, processes, and documentation for the former PROJECT NAME. It was forked on DATE. This fork is maintained by the Public Environmental Data Partners. 
+	_This repo was forked for archival purposes by the [Public Environmental Data Partners](https://screening-tools.com/) on DATE._
 
 
 When obtaining code from outside of Github (e.g. FOIA request):
